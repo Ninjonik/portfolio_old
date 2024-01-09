@@ -15,6 +15,7 @@ export default function Home() {
     e.preventDefault();
 
     if(email?.current?.value && subject?.current?.value && message?.current?.value){
+
       const emailValue = email?.current?.value;
       const subjectValue = subject?.current?.value;
       const messageValue = message?.current?.value;
