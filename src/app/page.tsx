@@ -38,6 +38,7 @@ export default function Home() {
         toast.success('Contact form successfully submitted!');
         return
       }
+
     }
 
 
